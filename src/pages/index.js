@@ -28,7 +28,7 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="nolime - internet for New Orleans" />
 
         <Header />
 
@@ -41,26 +41,9 @@ class Index extends React.Component {
 
         <div id="main">
 
-          <section id="intro" className="main">
-            <div className="spotlight">
-              <div className="content">
-                <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
-                </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-                <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
-                </ul>
-              </div>
-              <span className="image"><img src={pic01} alt="" /></span>
-            </div>
-          </section>
-
-          <section id="first" className="main special">
+          <section id="how" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>How it Works</h2>
             </header>
             <ul className="features">
               <li>
@@ -86,9 +69,27 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="second" className="main special">
+          <section id="roadmap" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h2>Roadmap</h2>
+                </header>
+                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
+                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
+                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                <ul className="actions">
+                  <li><Link to="/generic" className="button">Learn More</Link></li>
+                </ul>
+              </div>
+              <span className="image"><img src={pic01} alt="" /></span>
+            </div>
+          </section>
+
+
+          <section id="lime" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
+              <h2>LibreMesh</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
@@ -122,9 +123,9 @@ class Index extends React.Component {
             </footer>
           </section>
 
-          <section id="cta" className="main special">
+          <section id="do" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
+              <h2>Get Involved</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>

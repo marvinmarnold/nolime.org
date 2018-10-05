@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: "nolime - internet for New Orleans",
+    author: "nolime.org",
+    description: "Establishing community owned and operated internet throughout New Orleans. Building off of the incredible work from libremesh.org."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
