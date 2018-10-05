@@ -4,6 +4,7 @@ module.exports = {
     author: "nolime.org",
     description: "Establishing community owned and operated internet throughout New Orleans. Building off of the incredible work from libremesh.org."
   },
+  pathPrefix: `/`,
   plugins: [
     'gatsby-plugin-react-helmet',
     {
