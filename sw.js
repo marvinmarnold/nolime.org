@@ -26,24 +26,24 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-ff88fdc1d4d0426a6083.js"
+    "url": "webpack-runtime-75f598a56823fcc702c3.js"
   },
   {
-    "url": "app-d8d395f4240addc754fb.js"
+    "url": "app-46283a80cf4d88bc78c7.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-2ab347e8ce9c31b0f61b.js"
   },
   {
     "url": "index.html",
-    "revision": "9083269bdbf37d78304fa8af066cc9f0"
+    "revision": "c1fb4fb3211cbb2130eeeff4eb34fe4c"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "c537947b9a619ebd4a5bd66ea925d59c"
+    "revision": "dc48e6f230750043417d39f7a86d599f"
   },
   {
-    "url": "0.7da457b69253d014da4e.css"
+    "url": "0.792b8f975cfb2036c286.css"
   },
   {
     "url": "component---src-pages-index-js-7d1e27f6a23021522993.js"
@@ -55,14 +55,14 @@ self.__precacheManifest = [
     "url": "8-2330bdbb7f02327475b3.js"
   },
   {
-    "url": "1-d833d4ba3718c0c5ae6f.js"
+    "url": "1-995dab00e502776649d4.js"
   },
   {
     "url": "static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json",
     "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
   },
   {
-    "url": "component---src-pages-404-js-a0e4226e5e2ad8716b63.js"
+    "url": "component---src-pages-404-js-0e66a09679c0e177a511.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/nolime.org/offline-plugin-app-shell-fallback/index.html", {
+workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/index.html", {
   whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });
